@@ -1,0 +1,32 @@
+{
+  "name": "weather-cli-test-dergavko",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CLI wor getting weather",
+  "main": "index.js",
+  "os": "win32",
+  "cpu": [
+    "amd64"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Andrei Dergavko",
+  "license": "ISC",
+  "homepage": "https://github.com/dergavko/weather-cli-test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dergavko/weather-cli-test"
+  },
+  "bugs": {
+    "url": "https://github.com/dergavko/weather-cli-test/issues",
+    "email": "e4q1x@example.com"
+  }
+}
