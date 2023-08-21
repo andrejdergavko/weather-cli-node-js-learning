@@ -1,17 +1,14 @@
 {
-  "name": "weather-cli-test-dergavko",
+  "name": "weather-cli-dergavko",
   "version": "1.0.0",
-  "private": true,
   "description": "CLI wor getting weather",
-  "main": "index.js",
-  "os": "win32",
-  "cpu": [
-    "amd64"
-  ],
-  "engines": {
-    "node": ">=8.0.0"
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
   },
+  "type": "module",
   "scripts": {
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -25,8 +22,8 @@
     "type": "git",
     "url": "https://github.com/dergavko/weather-cli-test"
   },
-  "bugs": {
-    "url": "https://github.com/dergavko/weather-cli-test/issues",
-    "email": "e4q1x@example.com"
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.3.0"
   }
 }
